@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+别看了，这里没有flag。
