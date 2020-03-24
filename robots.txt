@@ -2,3 +2,4 @@ User-agent: *
 Disallow: /
 
 别看了，这里没有flag。
+怎么可能这么简单
