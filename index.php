@@ -35,6 +35,7 @@ a#link
 <p>さあ、盛り上げいこうか！！！</p>
 </div>
 <div id="tesuto">
+    <li><a href="rank.php" id="link">排行榜</a></li>
     <li><a href="1/index.php" id="link">第一关</a></li>
     <li><a href="2/index.php" id="link">第二关</a></li>
     <li><a href="3/index.php" id="link">第三关</a></li>
