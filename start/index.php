@@ -28,6 +28,14 @@ input
 {
     font-size:45px;    
 }
+#reg
+{
+    text-align:center;    
+}
+button
+{
+    text-align:center;    
+}
 </style>
 </head>
 <body>
@@ -42,10 +50,14 @@ input
 <div id="login">
 
 <form action="check.php" method="post" id="exec">
-<input type="text" name="username" value="用户名"><br>
+<input type="text" name="username" placeholder="用户名"><br>
 <p></p>
-<input type="text" name="passwd" value="密码"><br>
-<input type="submit" value="登陆">
+<input type="text" name="passwd" placeholder="密码"><br>
+<input type="submit" value="登陆"><br>
+</form>
+<div id="reg">
+<button><a href="register.html">注册</a></button>
+</div>
 </div>
 </body>
 </html>
