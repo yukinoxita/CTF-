@@ -1,7 +1,14 @@
 <?php
 
 $a = $_POST['ask'];
-echo $a;
+/*
+如果不开个wafsqlmap可能会干的我好疼
+*/
+$a = strtolower($a);
+$a = str_replace("union","",$a);
+$a = str_replace("select","",$a);
+//echo $a;
+
 $mysql_name = "localhost";
 $mysql_user = "root";
 $mysql_pass = "123456";

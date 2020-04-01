@@ -2,6 +2,7 @@
 
 $a = $_POST['ask'];
 //waf 开启
+$a = strtolower($a);
 $a = str_replace("union"," ",$a);
 $a = str_replace("from"," ",$a);
 $a = str_replace("select"," ",$a);
