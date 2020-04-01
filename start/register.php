@@ -23,7 +23,7 @@ if(($user !== '') && ($pass !== '') && ($beiz !== ''))
     else
     {
         //这个地方绝对有注入
-        $sql = "insert into user values('$user','$pass','$beizhu')";
+        $sql = "insert into user values('$user','$pass','$beiz')";
         if($conn->query($sql) === TRUE)
         {
             echo "<script>window.alert('注册成功');</script>";

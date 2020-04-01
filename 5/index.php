@@ -2,7 +2,7 @@
 <head>
 <title>第五题</title>
 <style>
-p{font-size:60px;}
+p{font-size:50px;}
 h1{font-size:70px;}
 label,input
 {

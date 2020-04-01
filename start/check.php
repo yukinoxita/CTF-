@@ -23,7 +23,7 @@ echo "<!--flag{This_is_the_other_flag}-->";
 if($result->num_rows == 0)
 {
     echo "<p><b>输入的密码或用户名有误</b></p><br>";
-    echo "<p>两秒钟之后自动返回</p>";
+    echo "<p>两秒钟之内自动返回</p>";
     echo "<script>window.location.href='index.php'</script>";
 }
 else
