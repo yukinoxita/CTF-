@@ -7,7 +7,7 @@ $a = str_replace("union"," ",$a);
 $a = str_replace("from"," ",$a);
 $a = str_replace("select"," ",$a);
 $a = str_replace(" ","",$a);
-echo $a;
+echo "<!--$a-->";
 //===========
 $mysql_name = "localhost";
 $mysql_user = "root";

@@ -5,8 +5,9 @@ $a = $_POST['ask'];
 如果不开个wafsqlmap可能会干的我好疼
 */
 $a = strtolower($a);
-$a = str_replace("union","",$a);
-$a = str_replace("select","",$a);
+$a = str_replace("and","",$a);
+//$a = str_replace('or',"",$a);
+//$a = str_replace("select","",$a);
 //echo $a;
 
 $mysql_name = "localhost";

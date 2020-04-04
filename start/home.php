@@ -65,10 +65,25 @@ p.nb
 <p>===============</p>
 <h1>忘记密码？</h1>
 <p class="nb">看在你这么搞笑的份上给你一个修改密码的机会</p>
-<form action='change.php' method="post" id="exec">
+<form action='change.php' method="post" id="exec" onsubmit="return check(this)">
 <input type="password" name="password" placeholder="新密码"><br>
 <input type="submit" value="修改">
 </form>
 </div>
+<p id="fuck"></p>
+<script>
+function check(form)
+{
+    var user = "<?php echo $user?>";               
+    if(user == 'admin')
+    {
+        alert('还想偷偷修改admin密码?');    
+        alert('给爷爬');
+        return false;
+    }
+    return true;
+    //document.getElementById('fuck').innerHTML = user;
+}
+</script>
 </body>
 </html>

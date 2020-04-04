@@ -14,5 +14,9 @@ MAILTO=root
 # *  *  *  *  * user-name  command to be executed
 # */5 * * * * /var/www/html/lore/reg/reg.sh
 # 40 8 * * * ~/send.sh
-#*/1 * * * * rm -f /var/www/html/5/upload/*
- * * * * *  rm -f /var/www/html/5/upload/* ;sleep 20 ;rm -f /var/www/html/5/upload/* ;sleep 20;rm -rf /var/www/html/5/upload/*; sleep 20
+# */1 * * * * rm -f /var/www/html/5/upload/*
+# * * * * *  rm -f /var/www/html/5/upload/* ;sleep 20 ;rm -f /var/www/html/5/upload/* ;sleep 20;rm -rf /var/www/html/5/upload/*; sleep 20
+* * * * * rm -f /var/www/html/5/upload/*
+* * * * * sleep 15;rm -f /var/www/html/5/upload/*
+* * * * * sleep 30;rm -f /var/www/html/5/upload/*
+* * * * * sleep 45;rm -f /var/www/html/5/upload/*

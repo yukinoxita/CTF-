@@ -18,7 +18,7 @@ echo "p{";
 echo "font-size:40px;";
 echo "}";
 echo "</style>";
-echo "<!--flag{This_is_the_other_flag}-->";
+echo "<!--flag{This_is_the_6th__flag}-->";
 //echo $result->num_rows;
 if($result->num_rows == 0)
 {
@@ -36,7 +36,8 @@ else
         echo "<p>两秒钟之后自动返回</p>";
         echo "<script>window.location.href='index.php'</script>";
     }
-    echo "登陆成功";
+    echo "登陆成功<br>";
+    echo "嘿嘿嘿";
     //echo "<input type='text' name='user'><br>";
     echo "<script>window.location.href='home.php?user=".$user."'</script>";
     //弹窗上面，get请求 转到自己的主页 

@@ -29,9 +29,6 @@ a#link
 <body>
 <div>
 <h1>规则</h1>
-<p>在规定的时间内解题获取flag,并将解题步骤以word文档的形式记录下来</p>
-<p>个人赛,不允许有相互讨论的情况</p>
-<p><b>ps:题全是我自己出的，网上没有。别抱有幻想。</b></p>
 <p>さあ、盛り上げいこうか！！！</p>
 </div>
 <div id="tesuto">
@@ -41,7 +38,7 @@ a#link
     <li><a href="3/index.php" id="link">第三关</a></li>
     <li><a href="4/index.php" id="link">第四关</a></li>
     <li><a href="5/index.php" id="link">第五关</a></li>
-    <li><a href="6/index.php" id="link">第六关</a></li>
+    <li><a href="6/index.php" id="link">未完待续</a></li>
 </div>
 <p id="time"></p>
 <script>

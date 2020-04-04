@@ -1,9 +1,14 @@
 <html>
 <head>
-<title>第六题</title>
+<title>总结</title>
+<style>
+#beg
+{
+    font-size:40px;    
+    text-align:center;
+}
+</style>
 </head>
 <body>
-<p>这就满足了吗?</p>
-<p>别忘了将做题步骤写成文档上交于我</p>
 </body>
 </html>
