@@ -19,13 +19,11 @@ input
 </head>
 <body>
 <p>
-第三题了，我也编不出什么词了,我就开门见山了，给爷注入！！！
+第三题了，也编不出什么词了,我就开门见山了，给爷注入！！！
 </p>
-
 <form action="check.php" method="post" id="exec">
 输入数字查询<input type="text" name="ask">
 <input type="submit" value="查询">
-
 </form>
 </body>
 </html>
