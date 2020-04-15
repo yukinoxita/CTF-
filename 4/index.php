@@ -1,3 +1,4 @@
+<?php?>
 <html>
 <head>
 <title>第四题</title>
@@ -5,6 +6,7 @@
 p
 {
     font-size:40px;
+   // text-align:center;
 }
 #exec
 {
@@ -18,7 +20,7 @@ input
 </head>
 <body>
 <p>
-上一题出的是有点简单了，再来试试?
+上一题是出的有点简单了，再来试试?
 </p>
 
 <form action="check.php" method="post" id="exec">
@@ -26,6 +28,7 @@ input
 <input type="submit" value="查询">
 
 </form>
-<!--define-->
+<!--
+本质上只是进行了替换,我替换了两类东西,-->
 </body>
 </html>

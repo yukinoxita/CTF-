@@ -1,3 +1,4 @@
+<?php?>
 <html>
 <head>
 <title>第五题</title>
@@ -20,7 +21,7 @@ label,input
 </style>
 </head>
 <body>
-<p>题目描述：你仔细品品<b>(手慢无)</b></p>
+<p>题目描述：你品，你细细品<b>(手慢无)</b></p>
 <p><b>lover</b>~f**ker~</p>
 <div id="upload">
 <h1>文件上传</h1>

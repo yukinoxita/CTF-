@@ -1,3 +1,4 @@
+<?php?>
 <html>
 <head>
 <title>隐藏关卡</title>

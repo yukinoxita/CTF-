@@ -1,3 +1,4 @@
+<?php?>
 <html>
 <head>
 <title>修改密码</title>

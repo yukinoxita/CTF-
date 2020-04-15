@@ -1,3 +1,4 @@
+<?php?>
 <html>
 <head>
 <title>总结</title>
